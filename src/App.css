@@ -63,6 +63,12 @@ h1{
   cursor: pointer;
 
 }
+
+.icon{
+  display: flex;
+  justify-content: end;
+  color: black;
+}
 .quote{
   line-height: 1.5;
   padding: 12px;
