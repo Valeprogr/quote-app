@@ -15,7 +15,7 @@ h1{
   flex-direction: column;
   height: 800px;
   width: auto;
-  background: url(https://i.pinimg.com/564x/88/77/da/8877daba84cb4d13e6dcd15b4706724e.jpg);
+  background: url('./components/images/img-quote.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -68,6 +68,7 @@ h1{
   display: flex;
   justify-content: end;
   color: black;
+  cursor: pointer;
 }
 .quote{
   line-height: 1.5;
