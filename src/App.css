@@ -2,7 +2,7 @@
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color:#069A8E;
+  
 }
 h1{
   font-size: 28px;
@@ -32,8 +32,9 @@ h1{
   height: auto;
   padding: 12px;
   background-color: white;
-  opacity: 97%;
-  width: 360px;
+  opacity: 98%;
+  width: 352px;
+  margin:12px;
   align-items: center;
   justify-content: center;
   border: 1px solid white;
@@ -43,7 +44,7 @@ h1{
 
 .quote-container{
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   padding: 12px;
   border-radius: 14px;
   margin: 22px;
@@ -55,9 +56,20 @@ h1{
   background-color: #F7FF93;
   border: 1px solid lightgrey;
   border-radius: 18px 18px;
+  color: gray;
   width: 150px;
   height: 52px;
   margin: 32px;
   cursor: pointer;
 
+}
+.quote{
+  line-height: 1.5;
+  padding: 12px;
+}
+
+.author{
+  color: gray;
+  line-height: 2.5;
+  padding: 0 12px;
 }
