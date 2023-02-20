@@ -11,8 +11,6 @@ function Container() {
 
   const[showComp, setShowComp]= useState(false);
   
-  //console.log(quotes)
- //console.log(getRandomNumber(quotes))
 
   useEffect(() => {
     const url = "https://type.fit/api/quotes";
