@@ -15,7 +15,7 @@ getFavoritesQuote()
  }, []);
     return (
         <>
-            <h1>This is my saved Quote List!</h1>
+            <h1>This is my saved Quotes List!</h1>
             <br/>
             {
                 data ?

@@ -31,7 +31,7 @@ const getRandomQuote = () =>{
     {quotes ?
       <div className='app-box'>
       <h1>Your Random Quote.</h1>
-    <button className='btn' onClick={getRandomQuote}>Click ♡</button>
+    <button className='btn' onClick={getRandomQuote}>Click  🔍</button>
     {showComp? 
 <Quote quote={quote} setShowComp={setShowComp}/>
     :

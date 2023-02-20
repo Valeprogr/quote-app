@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink} from 'react-router-dom';
-const Navbar = ({children}) => {
+const Navbar = () => {
     return (
         <>
-           <nav>
+           <nav className='nav-bar'>
             <NavLink to="/">Random Quote App</NavLink>
-            <NavLink to="/favorites">Favorites quotes</NavLink>
+            <NavLink to="/favorites">♡ Favorites quotes ♡</NavLink>
            </nav>
          
         </>

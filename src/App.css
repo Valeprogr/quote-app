@@ -10,6 +10,35 @@ h1{
   
 }
 
+.nav-bar{
+  height: 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+  border-radius: 12px;
+   border: 1px solid  lightgray;
+}
+
+.nav-bar a:hover{
+  text-decoration: underline;
+  /* background-color: lightgrey; */
+   
+  /* color: #069A8E; */
+}
+
+.nav-bar a:active{
+  color: #069A8E;
+  font-size: 19px;
+}
+
 .app-container{
   display: flex;
   flex-direction: column;
@@ -106,4 +135,11 @@ h1{
   color: gray;
   line-height: 2.5;
   padding: 0 12px;
+}
+
+.card-quote{
+  border: 1px solid #069A8E;
+  border-radius: 18px 18px;
+  padding: 32px;
+  margin: 12px;
 }
