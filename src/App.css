@@ -61,6 +61,13 @@ h1{
   cursor: pointer;
 
 }
+.btn:hover{
+  color: black;
+}
+
+.btn:active{
+  color: #069A8E;
+}
 
 .icon{
   display: flex;
@@ -68,10 +75,32 @@ h1{
   color: black;
   cursor: pointer;
 }
+
+.close{
+  margin-left: 22px;
+}
+
+.close:hover{
+  font-size: 26px;
+}
+
+.close:active{
+  color: #069A8E;
+}
+
+.heart:hover{
+  color: red;
+  font-size: 26px;
+}
+
+.heart:active{
+  color: #069A8E;
+}
 .quote{
   line-height: 1.5;
   padding: 12px;
 }
+
 
 .author{
   color: gray;
