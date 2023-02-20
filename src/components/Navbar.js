@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
            <nav className='nav-bar'>
             <NavLink to="/">Random Quote App</NavLink>
-            <NavLink to="/favorites">♡ Favorites quotes ♡</NavLink>
+            <NavLink to="/favorites">Favorites ♡</NavLink>
            </nav>
          
         </>
