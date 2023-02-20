@@ -1,13 +1,17 @@
 import React from 'react';
 
+
 const Quote = ({quote, setShowComp}) => {
-    
+  
+
     return (
     <div className='quote-container'>
     <div className='icon'> 
+    <a href='/favorites'>
     <span class="material-symbols-outlined heart">
 favorite
-</span> 
+</span> </a>
+
     <span class="material-symbols-outlined close" onClick={()=>setShowComp(false)}>
 close
 </span>

@@ -1,47 +1,17 @@
-import './App.css';
-import React,{useState,useEffect} from "react";
-import {getData} from "./services/api";
-import Loading from './components/Loading';
-import Quote from './components/Quote';
-function App() {
-  const[quotes, setQuotes]= useState();
-  const [quote, setQuote]= useState();
+import React from 'react';
+import { BrowserRouter,Routes, Route} from "react-router-dom";
+import Container from "../src/components/Container";
+import SavedQuote from './components/SavedQuote';
 
-  const[showComp, setShowComp]= useState(false);
-  
-  //console.log(quotes)
- //console.log(getRandomNumber(quotes))
-
-  useEffect(() => {
-    const url = "https://type.fit/api/quotes";
-    getData(url).then((data) => setQuotes(prev => data));
-    
-  }, []);
-
-const getRandomQuote = () =>{
-  setQuote(prev => quotes[Math.floor(Math.random() * quotes.length)]);
-  setShowComp(true);
-}
- 
-  
-  
-  return (
-    <div className="app-container">
-    
-    {quotes ?
-      <div className='app-box'>
-      <h1>Your Random Quote.</h1>
-    <button className='btn' onClick={getRandomQuote}>Click ♡</button>
-    {showComp? 
-<Quote quote={quote} setShowComp={setShowComp}/>
-    :
-    null}
-      </div>
-    :
- <Loading/>}
-    
-    </div>
-  );
+const App = () => {
+    return (
+        <BrowserRouter>
+        <Routes>
+        <Route path="/" element={<Container/>}></Route>
+        <Route path="/favorites" element={<SavedQuote />}/>
+        </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
