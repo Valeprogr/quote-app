@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CardQuote = ({index,ele}) => {
-    
+
     //Delete Quote function
     const deleteItem = () =>{
         console.log(index)
@@ -19,8 +19,8 @@ const CardQuote = ({index,ele}) => {
                 close
             </span>
             </div>
-            <p>{ele.text}</p>
-            <p>{ele.author}</p>
+            <p className='quote'>{ele.text}</p>
+            <p className='author'>{ele.author}</p>
         </div>
     );
 }

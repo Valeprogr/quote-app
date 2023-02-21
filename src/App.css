@@ -139,7 +139,7 @@ h1{
 .card-quote{
   border: 1px solid #069A8E;
   border-radius: 18px 18px;
-  padding: 32px;
+  padding: 20px;
   margin: 12px;
 }
 .list-header{
@@ -160,10 +160,31 @@ border: 1px solid lightgrey;
 border-radius: 18px 18px;
 cursor: pointer;
 }
+.reload-icon:hover{
+  background-color: #F7FF93;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  line-height: 1.5;
+  margin-top: 22px;
+}
+
+.footer-container a{
+  cursor: pointer;
+  text-decoration: none;
+}
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .list-header{
     font-size: 27px;
+  }
+  .app-container{
+    height: 588px;
   }
 }

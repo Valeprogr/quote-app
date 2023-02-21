@@ -22,11 +22,11 @@ const Quote = ({quote, setShowComp}) => {
     <div className='quote-container'>
     <div className='icon'> 
     <a href='/favorites'>
-    <span class="material-symbols-outlined heart" onClick={saveQuoteHandler}>
+    <span className="material-symbols-outlined heart" onClick={saveQuoteHandler}>
 favorite
 </span> </a>
 
-    <span class="material-symbols-outlined close" onClick={()=>setShowComp(false)}>
+    <span className="material-symbols-outlined close" onClick={()=>setShowComp(false)}>
 close
 </span>
 </div>

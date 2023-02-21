@@ -3,7 +3,7 @@ import CardQuote from './CardQuote';
 
 const SavedQuoteList = () => {
 const [data, setData] = useState();
-console.log(data)
+//console.log(data)
 
     const getFavoritesQuote = () =>{
         const items = JSON.parse(localStorage.getItem('list'));
@@ -19,7 +19,7 @@ getFavoritesQuote()
             <h1 className='list-header'>This is my saved Quotes List!</h1>
             <br/>
             
-            <span class="material-symbols-outlined reload-icon" onClick={getFavoritesQuote}>
+            <span className="material-symbols-outlined reload-icon" onClick={getFavoritesQuote}>
                 cached
             </span>
             </div>
