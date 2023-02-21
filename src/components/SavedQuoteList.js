@@ -15,8 +15,14 @@ getFavoritesQuote()
  }, []);
     return (
         <>
-            <h1>This is my saved Quotes List!</h1>
+            <div className='reload'>
+            <h1 className='list-header'>This is my saved Quotes List!</h1>
             <br/>
+            
+            <span class="material-symbols-outlined reload-icon" onClick={getFavoritesQuote}>
+                cached
+            </span>
+            </div>
             {
                 data ?
                <>
