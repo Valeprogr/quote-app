@@ -1,7 +1,7 @@
 # ⭐️ Random Quote App
 -------------------------------------------
-### Random Quote app is a web and mobile application that allows you to randomly select more than 1000 quotes from famous people.
-### It also gives you the ability to save your favorite quotes, to always have them with you , but also to delete them.
+ Random Quote app is a web and mobile application that allows you to randomly select more than 1000 quotes from famous people.
+ It also gives you the ability to save your favorite quotes, to always have them with you , but also to delete them.
 
 -----------------------------
 # Mission
