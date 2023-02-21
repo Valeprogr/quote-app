@@ -29,15 +29,13 @@ h1{
 }
 
 .nav-bar a:hover{
-  text-decoration: underline;
-  /* background-color: lightgrey; */
-   
-  /* color: #069A8E; */
+  background-color: #F7FF93;
 }
 
 .nav-bar a:active{
   color: #069A8E;
   font-size: 19px;
+  background-color: #F7FF93;
 }
 
 .app-container{
